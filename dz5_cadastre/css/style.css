@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'Helvetica Neue Regular';
+    src: url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneue-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+html, body {
+	width: 100%;
+	height: 100%;
+
+}
+body  {
+	font-family: "Helvetica Neue Regular", Arial;
+}
+.background {
+	max-width: 1920px;
+	max-height: 1080px;
+	background-image: url(../img/background.jpg);
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+.main-menu {
+	background-color: #075190;
+	height: 36px;
+	margin: 0 auto;
+	width: auto;
+	display: flex;
+    flex-flow: row wrap; 
+    justify-content: flex-end;
+}
+
+.menu {	
+	width: 370px; 
+	display: flex;
+   flex-flow: row nowrap;
+   align-items: center;
+   list-style: none;
+}
+
+.menu li {
+	display: block;
+   flex-shrink: 0;
+   line-height: 35px;
+   padding-left: 0 10px;
+   margin-right: 10px;
+   color: #60b5ed ;
+   font-size: 14px;
+   text-decoration: none;
+}
+	
+.menu li a {
+	color: #60b5ed;
+	font-size: 14px;
+	padding: 10px 10px; 
+	text-decoration: none;
+	line-height: 35px;
+	text-align: center;
+}
+
+.menu a:hover {
+	color: #fff;
+	background-color: #47a0d5;
+	text-decoration: none;
+}
+
+.border {
+	border-left: 1px solid #60b5ed;
+	margin: 4px 5px;
+	width: 2px;
+
+}
+
+.menu-right {
+	display: flex;
+    justify-content: space-around;
+	color: #fff;
+}
+
+.flag {
+    margin: 7px 10px;
+    vertical-align: center;    
+}
+
+.minhas {
+	color: #ffffff ;
+    text-decoration: none;
+}
+
+.text {
+	color: #ffffff ;
+    padding-right: 10px;
+    line-height: 35px;
+}
+
+.entr {
+	padding: 12px;
+    margin: 0 15px;
+    color: #ffffff ;
+    background-image: linear-gradient(to top, #4299d2 , #65a8e4 );
+}
+
+.underline {
+	color: #ffffff ;
+    text-decoration: underline;
+}
+
+.form {
+	position: absolute;
+	width: 560px;
+	height: 613px;
+	background-color: rgba(0,0,0,0.6);
+	top: 65px;
+	left: 350px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+
+}
+
+.title {
+	text-align: center;
+	margin: 15px 15px;
+	font-size: 24px;
+	color: #fff;
+}
+
+.line {
+	height: 2px;
+	background-color: #b5bcaa;
+
+}

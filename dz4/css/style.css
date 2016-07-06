@@ -1,0 +1,194 @@
+.background {
+	background-image: url(../img/background.png);
+	position: absolute;
+	top: -40px;
+	width:100%;
+}
+
+.page {
+	background: #ffffff;
+	margin: 0 auto;
+	height: 98%;
+	width: 1000px;
+}
+
+.logo {	
+	top: 49px;
+	left: 30px;
+	position: absolute;
+}
+
+.header {
+	font-family: 'Tahoma';
+	height: 177px;	
+	position: relative;
+}
+
+.voyage {
+	font-size: 12px;
+	position: absolute;
+	top: 145px;
+	left: 100px;
+	color: #128aa7;
+}
+
+.contacts {
+	font-size: 12px;
+	position: absolute;
+	top: 45px;
+	left: 843px;
+	color: #128aa7;
+}
+
+#contact {
+	font-weight: bold;
+}
+
+.countries {
+	font-size: 10px;
+	position: absolute;
+	color: #128aa7;
+	top: 145px;
+	left: 642px;
+}
+
+.flags li {
+	list-style: none;
+	float: left;
+	text-align: center;
+	text-decoration: underline;	
+	padding: 5px;	
+}
+
+.photo {
+	border-top: 1px solid #128aa7;
+	border-bottom: 1px solid #128aa7;
+	margin-top: 213px;
+}
+
+.header:after {
+	clear: both;
+	display: block;
+	content: "";
+}	
+
+.menu {
+	background-color: #343434;
+	list-style: none;
+	border-bottom: 1px solid #000;
+	margin-top: 275px;
+}
+
+.menu > li {
+	display: inline-block;
+	position: relative;
+}
+
+.menu a:hover
+	  a:visited
+	  a:active {
+	  	background-color: #343434;
+	  	text-decoration: none;
+	  }
+
+.menu > li a {
+	color: #ffffff;
+	display: block;	
+	text-decoration: none;
+	font-family: 'Tahoma';
+	font-size: 14px;
+	margin-left: 57px;
+	padding: 7px 0px;
+	text-align: left; 
+}
+
+.menu .sub-menu {
+	box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+	position: absolute;
+	list-style: none;
+	background-color: #303030;
+	width: 150px;
+	left: 1px;
+	margin-left: 47px;
+	display: none;
+
+}
+
+.menu .sub-menu a {
+	margin: 2px 10px;
+}
+
+.menu > li:hover .sub-menu {
+	display: block;
+	border-top: 1px solid #000;
+}
+
+.triangle:after {
+	content: "\25bc";
+	font-size: 7px;
+	margin-left: 7px;
+	text-align: center;
+}
+
+.column-right {
+	float: right;
+	background: #edeef0; 
+	width: 208px;
+	display: block;
+	border-right: 1px solid #c7cacf;
+	border-left: 1px solid #c7cacf;
+	padding: 7px 7px 20010px 7px; 
+	margin-bottom: -20000px;
+	text-align: center;
+	color: #424c43;
+	font-family: 'Tahoma';
+	font-size: 14px;	
+	line-height: 24px;
+}
+
+.column-left {
+	float: left;
+	background: #edeef0; 
+	width: 208px;
+	display: block;
+	border-right: 1px solid #c7cacf;
+	border-left: 1px solid #c7cacf;
+	padding: 7px 7px 20010px 7px; 
+	margin-bottom: -20000px;
+	text-align: center;
+	color: #424c43;
+	font-family: 'Tahoma';
+	font-size: 14px;	
+	line-height: 24px;
+} 
+
+.column-center {
+	width: 580px;
+	display: block;
+	background: #ffffff;
+	margin: 0 auto;
+	padding: 7px 7px 20010px 7px; 
+	margin-bottom: -20000px;
+}
+
+.container {
+	width: 1000px;
+	overflow: hidden;
+}
+
+.title {
+	font-family: 'Tahoma';
+	font-size: 18px;
+	color: #424c43;
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+.copy {
+	color: #ffffff;
+	font-family: 'Tahoma';
+	font-size: 12px;
+	margin: 7px 0px;
+	text-align: center;
+}

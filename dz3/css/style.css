@@ -1,0 +1,144 @@
+body  {
+	background: #f9f9f9;
+}
+
+.page  {
+	margin: 0 auto; 
+	background-color: #ffffff;
+	box-shadow: 0px 2px 12px 2px rgba(0,0,0,0.30);
+	padding: 50px 47px 60px 47px;
+	height: 100%;
+	width: 1063px;
+}
+
+.logo  {
+	text-align: left;
+	margin-bottom: 40px;
+}
+
+.main-menu {
+	list-style: none;
+	background: #565555;
+	height: 40px; 
+}
+
+.main-menu li {
+	display: inline-block;
+}
+
+.main-menu a {
+	color: white;
+	display: block;	
+	font-size: 16px;
+	padding: 12px 15px;	
+	text-align: center;
+	text-decoration: none;
+	width: 100px;
+}
+
+.main-menu a:hover {
+	background-color: #343434;
+	border-left: 1px solid #838383;
+	border-right: 1px solid #838383;
+	padding: 12px 14px;
+	
+}
+
+.center-block {
+	display: inline-block;
+	float: left; /* Обтекание блока по правому краю */
+	margin-top: 42px;
+} 
+
+.center-menu { 	
+	border: 1px solid #c8c8c8;
+	border-bottom: 0;
+	list-style: none;
+	width: 240px;
+}
+
+.center-menu li {
+	display: block;
+} 
+
+.center-menu a {
+	border-bottom: 1px solid #c8c8c8;
+	color: #656363;	
+	display: block;
+	font-size: 14px;
+	padding: 10px 14px;
+	text-decoration: none;	
+}
+
+.center-menu a:hover {
+	background-color: #f9f9f9;
+	color: #2c2c2c;	
+	padding-left: 20px;
+}
+
+.bicycle_text {				
+	display: inline-block;
+	float: right;
+} 
+
+.bicycle {
+	border: 1px solid #c8c8c8;
+	margin-top: 40px;
+	margin-left: 50px; 
+	padding: 50px 134px;
+}
+
+p {
+	color: #2c2c2c;	
+	font-size: 14px; 
+	margin-top: 40px;
+	margin-left: 20px;
+	margin-bottom: 60px;	
+	line-height: 22px;
+	padding-left: 60px;
+	width: 650px;
+}
+
+.last-blok {
+	background: #e1e1e1;
+	clear: both;
+}
+.bottom-menu {	
+	background: 0;
+	display: inline-block;
+	height: 40px;
+	list-style: none;
+	width:750px;
+	position: relative;	
+}
+
+.bottom-menu li {
+	display: inline;
+}
+
+.bottom-menu a {
+	color: #2c2c2c;
+	display: inline-block;
+	font-size: 14px;
+	padding: 13px 25px;
+	text-align: center;
+	text-decoration: none;	
+	width: 100px;	
+}
+
+.bottom-menu a:hover {
+	text-decoration: underline;
+	
+}
+
+.copy {
+	color: #2c2c2c;
+	display: block;
+	font-size: 14px;
+	text-align: center;
+	width: 250px;
+	float: right;
+	height: 40px;
+	margin-top: 12px;
+}
+ 
