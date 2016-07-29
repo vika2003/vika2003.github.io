@@ -236,6 +236,561 @@ a {
 	border-bottom: 2px solid #edbfff;
 }
 
+.header {
+		height: 869px;
+		width: 100%;
+		background-position: center;
+	}
+
+	.header_content {
+		height: 835px;
+	}
+
+	.main_menu {
+		margin: 0 auto;
+		height: 268px;
+		width: 960px;
+	}
+
+	.logo {
+		float: left;
+		height: 40px;
+		margin-top: 60px;
+		margin-left: 0px;
+	}
+
+	.logo_name {
+		font-size: 48px;
+	}
+	
+	.menu  {
+		float: right;
+		height: 25px;
+		margin-top: 70px;
+		width: 68%;
+	}
+
+	.menu li {
+		display: inline-block;
+		margin-left: 42px;
+	}
+
+	.menu li:first-child {
+		margin-left: 27px;
+	}
+
+	.menu li a {
+		font-size: 24px;
+		text-transform: uppercase;
+		font-family: 'League Gothic';
+	}
+	
+/*Iphone-start*/	
+
+	.textiph {
+		height: 400px;
+		width: 100%;
+	}
+
+	.textiphcont {
+		height: 400px;
+		margin: 0 auto;
+		width: 960px;	
+	}
+
+	.textiphcont_text {
+		width: 58%;
+	 	float: left;
+		margin-top: 75px;
+		margin-left: 50px;
+	}
+
+	.textiphcont_text h1 {
+	 	font-family: 'League Gothic';
+	 	font-size: 60px;
+	 	color: #fff;
+	}
+
+	.textiphcont_text h2 {
+	 	font-family: 'League Gothic';
+	 	font-size: 32px;
+	 	color: #edbfff;
+	}
+
+	.textiphcont_text p {
+		font-size: 18px;
+		font-family: 'Open SansRegular';
+	 	color: #fff;
+	 	line-height: 1.5;
+	}
+
+	.textiphcont_iphone {
+	 	float: right;    
+	 	margin-top: -15px;
+	 	margin-right: 60px;
+	}
+
+	.slider_arrow_right a,
+	.slider_arrow_left a {
+	    height: 42px;
+	    width: 30px;
+	}
+
+	.slider_arrow_left img  {
+	   	position: absolute;
+	  	top: 44%;
+	   	left: 0%;
+	}
+
+	.slider_arrow_right img  {
+	   	position: absolute;
+	  	top: 44%;
+	   	right: 0%;
+	}
+
+	.buttonblack {
+   		position: absolute;
+ 		bottom: -102px;
+ 		right: 172px;
+	}
+
+	
+
+/*Iphone-end*/
+
+/*Maincont-start*/
+
+	.maincontbg {
+		height: 341px;
+		width: 100%;
+	}
+
+	.maincont {
+		height: 341px;
+		margin: 0 auto;
+		width: 960px;	
+	}
+
+	.maincont_body {
+		float: left;
+		width: 27%;
+		margin: 70px 3px 0 55px;	
+	}
+
+	.maincont_rm {
+		float: right;
+    	padding: 25px 16px 0 0;
+	}
+
+	.maincont_rm a {
+	 	font-family: 'League Gothic';
+	 	font-size: 18px;
+	}
+
+	.maincont_picto1 {
+		background-image: url(../img/picto.png);
+		float: left;
+		height: 28px;
+		width: 28px;
+		margin-left: -53px;
+		margin-top: 14px;
+	}
+
+	.maincont_picto2 {
+		background-image: url(../img/picto.png);
+		background-position: -32px;
+		background-repeat: no-repeat;
+		float: left;
+		height: 26px;
+		width: 29px;
+		margin-left: -55px;
+		margin-top: 15px;
+	}
+
+	.maincont_picto3 {
+		background-image: url(../img/picto.png);
+		background-position: -62px;
+		background-repeat: no-repeat;
+		float: left;
+		height: 27px;
+		width: 29px;
+		margin-left: -55px;
+		margin-top: 15px;
+	}
+
+	.maincont_body h2 {
+	 	font-size: 30px;
+	 	font-family: 'League Gothic';
+	 	color: #fff;
+	 	line-height: 1.5;
+	}
+
+	.maincont_body p {
+	 	font-size: 16px;
+	 	font-family: 'Open SansRegular';
+	 	overflow: hidden;
+	 	height: 120px;
+	 	width: 255px;
+	 	color: #fff;
+	 	line-height: 1.5;
+	}
+/*Maincont-end*/
+
+
+/*Article-start*/
+
+	.mainarticlebg {
+		height: 486px;
+	}
+
+	.mainarticle {
+		width: 960px;
+		height: 486px;
+	}
+
+	.mainarticle_left {
+		height: 250px;
+		float: left;
+		width: 40%;
+		margin-top: 98px;
+		margin-left: 22px;
+		padding: 28px 10px 0 35px;	
+	}
+
+	.mainarticle_left h2 {
+		font-size: 30px;
+	}
+
+	.mainarticle_left p {
+		font-size: 16px;
+	 	font-family: 'Open SansRegular';
+	 	overflow: hidden;
+	 	height: 175px;
+	 	width: 99%;
+	 	color: #454545;
+	 	line-height: 1.6;
+	 	padding-top: 10px;
+
+	}
+
+	.mainarticle_left img {
+		position: absolute;
+		top: 18px;
+		left: -17px;
+	}
+
+	.buttonblack_stars {
+	 	right: 165px;
+	  	bottom: -42px;
+	}
+
+	.mainarticle_right {
+		height: 240px;
+		float: right;
+		width: 48%;		
+		margin-top: 110px;
+	}
+
+	.mainarticle_right h2 {
+		font-size: 30px;
+	 	font-family: 'League Gothic';
+	 	color: #454545;
+	 	text-transform: uppercase;
+	 	line-height: 1.7;
+	}
+	
+	.mainarticle_right li .mainarticle_foto--one {
+		float: left;
+		background:url("../img/blog_img.png") no-repeat;
+		width: 49px;
+		height: 49px;
+		margin-top: 10px;
+	}
+
+	.mainarticle_right li .mainarticle_foto--two {
+		background:url("../img/blog_img.png") no-repeat;
+		background-position: 0 -67px;
+		float: left;
+		width: 49px;
+		height: 49px;
+		margin-top: 10px;
+	}
+
+	.mainarticle_right li .mainarticle_foto--three {
+		background:url("../img/blog_img.png") no-repeat;
+		background-position: 0 -131px;
+		float: left;
+		width: 49px;
+		height: 49px;
+		margin-top: 10px;
+	}
+
+	.mainarticle_right li .mainarticle_article {
+		padding-left: 15px;
+		display: inline-block;	
+		width: 85%;
+	}
+
+	.mainarticle_right li .mainarticle_article .mainarticle_title {
+		font-size: 16px;
+	 	font-family: 'Open SansExtraBold';
+	 	color: #454545;
+	 	white-space: nowrap;
+	 	line-height: 1.5;
+	 	margin-top: 10px;
+	}
+
+	.mainarticle_right li .mainarticle_article .mainarticle_body {
+		font-size: 16px;
+	 	font-family: 'Open SansRegular';
+	 	color: #454545;
+	 	white-space: nowrap;
+	 	line-height: 1.5;
+	}
+
+	.mainarticle_rmh a {
+		font-family: 'League Gothic';
+	 	font-size: 18px;
+	}
+
+	.mainarticle_rmh {
+    	text-align: right;
+    	margin-top: 20px;
+    	margin-right: 15px;
+	}
+
+/*Article-end*/
+
+
+/*Mainpartners-start*/
+
+	.mainpartnersbg {
+		height: 121px;
+	}
+
+	.mainpartners {
+		margin: 0 auto;
+		height: 121px;
+		width: 960px;
+		text-align: center;
+	}
+
+	.mainpartners .mainpartners_logos {
+		margin-top: 25px;
+	}
+
+	.mainpartners .mainpartners_logos li{
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.mainpartners_logo1 {
+		background-image: url(../img/logos.png);
+		background-repeat: no-repeat;
+		height: 65px;
+		width: 70px;
+	}
+
+	.mainpartners_logo2 {
+		background-image: url(../img/logos.png);
+		background-position: -70px;
+		background-repeat: no-repeat;
+		height: 65px;
+		width: 70px;
+		margin-left: 48px;
+	}
+
+	.mainpartners_logo3 {
+		background-image: url(../img/logos.png);
+		background-position: -142px;
+		background-repeat: no-repeat;
+		height: 65px;
+		width: 65px;
+		margin-left: 48px;
+	}
+
+	.mainpartners_logo4 {
+		background-image: url(../img/logos.png);
+		background-position: -208px;
+		background-repeat: no-repeat;
+		height: 65px;
+		width: 52px;
+		margin-left: 50px;
+	}
+
+	.mainpartners_logo5 {
+		background-image: url(../img/logos.png);
+		background-position: -260px;
+		background-repeat: no-repeat;
+		height: 65px;
+		width: 104px;
+		margin-left: 48px;		
+	}
+
+	.mainpartners_logo6 {
+		background-image: url(../img/logos.png);
+		background-position: -363px;
+		background-repeat: no-repeat;
+		height: 65px;
+		width: 81px;
+		margin-left: 48px;		
+	}
+
+/*Mainpartner-end*/
+
+
+/*Article bottom-start*/
+
+	.artbottombg {
+		height: 396px;
+	}
+
+	.artbottom {
+		width: 960px;
+		height: 396px;	
+	}
+
+	.artbottom_left {
+		float: left;
+		vertical-align: middle;
+		margin: 80px 0 50px 25px;		
+		width: 28%;
+	}
+
+	.artbottom_left h3 {
+		font-size: 48px;
+	 	font-family: 'League Gothic';
+	 	color: #454545;
+	 	text-transform: uppercase;
+	}
+
+	.artbottom_left h4 {
+		color: #c5c5c5;
+		font-size: 16px;
+	 	font-family: 'Georgia';
+	 	font-style: italic;
+	 	margin-top: 7px;
+	}
+
+	.artbottom_left span {
+		color: #b9b9b9;
+		font-size: 48px;
+	 	font-family: 'League Gothic';
+	 	text-transform: uppercase;
+	}
+
+	.artbottom_left p {
+		color: #787878;
+		height: 115px;
+		font-size: 16px;
+	 	font-family: 'Open SansRegular';
+	 	overflow: hidden;
+	 	line-height: 1.5;
+	 	margin-top: 7px;
+	}
+
+	.artbottom_center {
+		float: left;
+		vertical-align: middle;
+		margin: 80px 0 50px 35px;		
+		width: 28%;
+	}
+
+	.artbottom_center h3 {
+		font-size: 30px;
+	 	font-family: 'League Gothic';
+	 	color: #454545;
+	 	text-transform: uppercase;
+	}
+
+	.artbottom_center p {
+		color: #787878;
+		height: 165px;
+		font-size: 16px;
+	 	font-family: 'Open SansRegular';
+	 	overflow: hidden;
+	 	line-height: 1.5;
+	 	margin-top: 7px;
+	}
+
+	.artbottom_right {
+		float: left;
+		vertical-align: middle;
+		margin: 80px 0 50px 35px;	
+		width: 28%;
+	}
+
+	.artbottom_right h3 {
+		font-size: 30px;
+	 	font-family: 'League Gothic';
+	 	color: #454545;
+	 	text-transform: uppercase;
+	}
+
+	.artbottom_right p {
+		color: #787878;
+		height: 165px;
+		font-size: 16px;
+	 	font-family: 'Open SansRegular';
+	 	overflow: hidden;
+	 	line-height: 1.5;
+	 	margin-top: 7px;
+	}
+
+/*Article bottom-end*/
+
+
+/*Footer-start*/
+
+	.footer_bg {
+		background-position: -700px -1180px;
+		height: 114px;
+		width: 100%
+	}
+
+	.footer_menu {
+		height: 114px;
+		margin: 0 auto;
+		width: 960px;
+	}
+
+	.footer_menu ul {
+		float: left;
+		margin: 47px 0 47px 20px;
+	}
+
+	.footer_menu li {
+		display: inline;
+	}
+
+	.footer_menu li:first-child a {
+		margin-left: 15px;
+	}
+
+	.footer_menu li a {
+		font-size: 20px;
+		text-transform: uppercase;
+		font-family: 'League Gothic';
+		margin-left: 36px;
+	}
+	
+	.footer_design {
+		color: #fff;
+		float: right;
+		margin: 53px 55px 41px 0;
+		font-size: 11px;
+	 	font-family: 'Open SansRegular';
+	}
+
+	.footer_design span {
+		color: #fff;
+		font-size: 12px;
+		font-family: 'Open SansExtraBold';
+	}
+
+/*Footer-end*/
+
+
 @media (min-width: 320px) and (max-width: 479px) {
 
 	.header {
@@ -1887,560 +2442,3 @@ a {
 /*Footer-end*/	
 }
 
-
-@media (min-width: 960px) {
-	.header {
-		height: 869px;
-		width: 100%;
-		background-position: center;
-	}
-
-	.header_content {
-		height: 835px;
-	}
-
-	.main_menu {
-		margin: 0 auto;
-		height: 268px;
-		width: 960px;
-	}
-
-	.logo {
-		float: left;
-		height: 40px;
-		margin-top: 60px;
-		margin-left: 0px;
-	}
-
-	.logo_name {
-		font-size: 48px;
-	}
-	
-	.menu  {
-		float: right;
-		height: 25px;
-		margin-top: 70px;
-		width: 68%;
-	}
-
-	.menu li {
-		display: inline-block;
-		margin-left: 42px;
-	}
-
-	.menu li:first-child {
-		margin-left: 27px;
-	}
-
-	.menu li a {
-		font-size: 24px;
-		text-transform: uppercase;
-		font-family: 'League Gothic';
-	}
-	
-/*Iphone-start*/	
-
-	.textiph {
-		height: 400px;
-		width: 100%;
-	}
-
-	.textiphcont {
-		height: 400px;
-		margin: 0 auto;
-		width: 960px;	
-	}
-
-	.textiphcont_text {
-		width: 58%;
-	 	float: left;
-		margin-top: 75px;
-		margin-left: 50px;
-	}
-
-	.textiphcont_text h1 {
-	 	font-family: 'League Gothic';
-	 	font-size: 60px;
-	 	color: #fff;
-	}
-
-	.textiphcont_text h2 {
-	 	font-family: 'League Gothic';
-	 	font-size: 32px;
-	 	color: #edbfff;
-	}
-
-	.textiphcont_text p {
-		font-size: 18px;
-		font-family: 'Open SansRegular';
-	 	color: #fff;
-	 	line-height: 1.5;
-	}
-
-	.textiphcont_iphone {
-	 	float: right;    
-	 	margin-top: -15px;
-	 	margin-right: 60px;
-	}
-
-	.slider_arrow_right a,
-	.slider_arrow_left a {
-	    height: 42px;
-	    width: 30px;
-	}
-
-	.slider_arrow_left img  {
-	   	position: absolute;
-	  	top: 44%;
-	   	left: 0%;
-	}
-
-	.slider_arrow_right img  {
-	   	position: absolute;
-	  	top: 44%;
-	   	right: 0%;
-	}
-
-	.buttonblack {
-   		position: absolute;
- 		bottom: -102px;
- 		right: 172px;
-	}
-
-	
-
-/*Iphone-end*/
-
-/*Maincont-start*/
-
-	.maincontbg {
-		height: 341px;
-		width: 100%;
-	}
-
-	.maincont {
-		height: 341px;
-		margin: 0 auto;
-		width: 960px;	
-	}
-
-	.maincont_body {
-		float: left;
-		width: 27%;
-		margin: 70px 3px 0 55px;	
-	}
-
-	.maincont_rm {
-		float: right;
-    	padding: 25px 16px 0 0;
-	}
-
-	.maincont_rm a {
-	 	font-family: 'League Gothic';
-	 	font-size: 18px;
-	}
-
-	.maincont_picto1 {
-		background-image: url(../img/picto.png);
-		float: left;
-		height: 28px;
-		width: 28px;
-		margin-left: -53px;
-		margin-top: 14px;
-	}
-
-	.maincont_picto2 {
-		background-image: url(../img/picto.png);
-		background-position: -32px;
-		background-repeat: no-repeat;
-		float: left;
-		height: 26px;
-		width: 29px;
-		margin-left: -55px;
-		margin-top: 15px;
-	}
-
-	.maincont_picto3 {
-		background-image: url(../img/picto.png);
-		background-position: -62px;
-		background-repeat: no-repeat;
-		float: left;
-		height: 27px;
-		width: 29px;
-		margin-left: -55px;
-		margin-top: 15px;
-	}
-
-	.maincont_body h2 {
-	 	font-size: 30px;
-	 	font-family: 'League Gothic';
-	 	color: #fff;
-	 	line-height: 1.5;
-	}
-
-	.maincont_body p {
-	 	font-size: 16px;
-	 	font-family: 'Open SansRegular';
-	 	overflow: hidden;
-	 	height: 120px;
-	 	width: 255px;
-	 	color: #fff;
-	 	line-height: 1.5;
-	}
-/*Maincont-end*/
-
-
-/*Article-start*/
-
-	.mainarticlebg {
-		height: 486px;
-	}
-
-	.mainarticle {
-		width: 960px;
-		height: 486px;
-	}
-
-	.mainarticle_left {
-		height: 250px;
-		float: left;
-		width: 40%;
-		margin-top: 98px;
-		margin-left: 22px;
-		padding: 28px 10px 0 35px;	
-	}
-
-	.mainarticle_left h2 {
-		font-size: 30px;
-	}
-
-	.mainarticle_left p {
-		font-size: 16px;
-	 	font-family: 'Open SansRegular';
-	 	overflow: hidden;
-	 	height: 175px;
-	 	width: 99%;
-	 	color: #454545;
-	 	line-height: 1.6;
-	 	padding-top: 10px;
-
-	}
-
-	.mainarticle_left img {
-		position: absolute;
-		top: 18px;
-		left: -17px;
-	}
-
-	.buttonblack_stars {
-	 	right: 165px;
-	  	bottom: -42px;
-	}
-
-	.mainarticle_right {
-		height: 240px;
-		float: right;
-		width: 48%;		
-		margin-top: 110px;
-	}
-
-	.mainarticle_right h2 {
-		font-size: 30px;
-	 	font-family: 'League Gothic';
-	 	color: #454545;
-	 	text-transform: uppercase;
-	 	line-height: 1.7;
-	}
-	
-	.mainarticle_right li .mainarticle_foto--one {
-		float: left;
-		background:url("../img/blog_img.png") no-repeat;
-		width: 49px;
-		height: 49px;
-		margin-top: 10px;
-	}
-
-	.mainarticle_right li .mainarticle_foto--two {
-		background:url("../img/blog_img.png") no-repeat;
-		background-position: 0 -67px;
-		float: left;
-		width: 49px;
-		height: 49px;
-		margin-top: 10px;
-	}
-
-	.mainarticle_right li .mainarticle_foto--three {
-		background:url("../img/blog_img.png") no-repeat;
-		background-position: 0 -131px;
-		float: left;
-		width: 49px;
-		height: 49px;
-		margin-top: 10px;
-	}
-
-	.mainarticle_right li .mainarticle_article {
-		padding-left: 15px;
-		display: inline-block;	
-		width: 85%;
-	}
-
-	.mainarticle_right li .mainarticle_article .mainarticle_title {
-		font-size: 16px;
-	 	font-family: 'Open SansExtraBold';
-	 	color: #454545;
-	 	white-space: nowrap;
-	 	line-height: 1.5;
-	 	margin-top: 10px;
-	}
-
-	.mainarticle_right li .mainarticle_article .mainarticle_body {
-		font-size: 16px;
-	 	font-family: 'Open SansRegular';
-	 	color: #454545;
-	 	white-space: nowrap;
-	 	line-height: 1.5;
-	}
-
-	.mainarticle_rmh a {
-		font-family: 'League Gothic';
-	 	font-size: 18px;
-	}
-
-	.mainarticle_rmh {
-    	text-align: right;
-    	margin-top: 20px;
-    	margin-right: 15px;
-	}
-
-/*Article-end*/
-
-
-/*Mainpartners-start*/
-
-	.mainpartnersbg {
-		height: 121px;
-	}
-
-	.mainpartners {
-		margin: 0 auto;
-		height: 121px;
-		width: 960px;
-		text-align: center;
-	}
-
-	.mainpartners .mainpartners_logos {
-		margin-top: 25px;
-	}
-
-	.mainpartners .mainpartners_logos li{
-		display: inline-block;
-		vertical-align: middle;
-	}
-
-	.mainpartners_logo1 {
-		background-image: url(../img/logos.png);
-		background-repeat: no-repeat;
-		height: 65px;
-		width: 70px;
-	}
-
-	.mainpartners_logo2 {
-		background-image: url(../img/logos.png);
-		background-position: -70px;
-		background-repeat: no-repeat;
-		height: 65px;
-		width: 70px;
-		margin-left: 48px;
-	}
-
-	.mainpartners_logo3 {
-		background-image: url(../img/logos.png);
-		background-position: -142px;
-		background-repeat: no-repeat;
-		height: 65px;
-		width: 65px;
-		margin-left: 48px;
-	}
-
-	.mainpartners_logo4 {
-		background-image: url(../img/logos.png);
-		background-position: -208px;
-		background-repeat: no-repeat;
-		height: 65px;
-		width: 52px;
-		margin-left: 50px;
-	}
-
-	.mainpartners_logo5 {
-		background-image: url(../img/logos.png);
-		background-position: -260px;
-		background-repeat: no-repeat;
-		height: 65px;
-		width: 104px;
-		margin-left: 48px;		
-	}
-
-	.mainpartners_logo6 {
-		background-image: url(../img/logos.png);
-		background-position: -363px;
-		background-repeat: no-repeat;
-		height: 65px;
-		width: 81px;
-		margin-left: 48px;		
-	}
-
-/*Mainpartner-end*/
-
-
-/*Article bottom-start*/
-
-	.artbottombg {
-		height: 396px;
-	}
-
-	.artbottom {
-		width: 960px;
-		height: 396px;	
-	}
-
-	.artbottom_left {
-		float: left;
-		vertical-align: middle;
-		margin: 80px 0 50px 25px;		
-		width: 28%;
-	}
-
-	.artbottom_left h3 {
-		font-size: 48px;
-	 	font-family: 'League Gothic';
-	 	color: #454545;
-	 	text-transform: uppercase;
-	}
-
-	.artbottom_left h4 {
-		color: #c5c5c5;
-		font-size: 16px;
-	 	font-family: 'Georgia';
-	 	font-style: italic;
-	 	margin-top: 7px;
-	}
-
-	.artbottom_left span {
-		color: #b9b9b9;
-		font-size: 48px;
-	 	font-family: 'League Gothic';
-	 	text-transform: uppercase;
-	}
-
-	.artbottom_left p {
-		color: #787878;
-		height: 115px;
-		font-size: 16px;
-	 	font-family: 'Open SansRegular';
-	 	overflow: hidden;
-	 	line-height: 1.5;
-	 	margin-top: 7px;
-	}
-
-	.artbottom_center {
-		float: left;
-		vertical-align: middle;
-		margin: 80px 0 50px 35px;		
-		width: 28%;
-	}
-
-	.artbottom_center h3 {
-		font-size: 30px;
-	 	font-family: 'League Gothic';
-	 	color: #454545;
-	 	text-transform: uppercase;
-	}
-
-	.artbottom_center p {
-		color: #787878;
-		height: 165px;
-		font-size: 16px;
-	 	font-family: 'Open SansRegular';
-	 	overflow: hidden;
-	 	line-height: 1.5;
-	 	margin-top: 7px;
-	}
-
-	.artbottom_right {
-		float: left;
-		vertical-align: middle;
-		margin: 80px 0 50px 35px;	
-		width: 28%;
-	}
-
-	.artbottom_right h3 {
-		font-size: 30px;
-	 	font-family: 'League Gothic';
-	 	color: #454545;
-	 	text-transform: uppercase;
-	}
-
-	.artbottom_right p {
-		color: #787878;
-		height: 165px;
-		font-size: 16px;
-	 	font-family: 'Open SansRegular';
-	 	overflow: hidden;
-	 	line-height: 1.5;
-	 	margin-top: 7px;
-	}
-
-/*Article bottom-end*/
-
-
-/*Footer-start*/
-
-	.footer_bg {
-		background-position: -700px -1180px;
-		height: 114px;
-		width: 100%
-	}
-
-	.footer_menu {
-		height: 114px;
-		margin: 0 auto;
-		width: 960px;
-	}
-
-	.footer_menu ul {
-		float: left;
-		margin: 47px 0 47px 20px;
-	}
-
-	.footer_menu li {
-		display: inline;
-	}
-
-	.footer_menu li:first-child a {
-		margin-left: 15px;
-	}
-
-	.footer_menu li a {
-		font-size: 20px;
-		text-transform: uppercase;
-		font-family: 'League Gothic';
-		margin-left: 36px;
-	}
-	
-	.footer_design {
-		color: #fff;
-		float: right;
-		margin: 53px 55px 41px 0;
-		font-size: 11px;
-	 	font-family: 'Open SansRegular';
-	}
-
-	.footer_design span {
-		color: #fff;
-		font-size: 12px;
-		font-family: 'Open SansExtraBold';
-	}
-
-/*Footer-end*/
-
-}
