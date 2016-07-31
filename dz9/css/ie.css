@@ -1,3 +1,29 @@
-.maincontbg  {
-	background-color: red;
+.buttonblack__radio:not(old):checked + .buttonblack__custom > .buttonblack__circle > .buttonblack__inner-circle {
+	display: block;
+	width: 9px;
+	height: 9px;
+	margin: auto;
+	border-radius: 50%;
+	background: #fff;
+	margin: 3px auto;
+}
+
+.buttonblack__circle {
+	display: flex;
+	float: left;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.buttonblack__radio:not(old):checked + .buttonblack__custom > .buttonblack__circle > .buttonblack__inner-circle_stars {
+	background: #454545 ;
+}
+
+.buttonblack__circle_stars {
+	width: 15px;
+	height: 15px;
+	background: #fff;
+	border: 1px solid #e6e6e6 ;
 }
