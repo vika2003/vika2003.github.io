@@ -1,3 +1,5 @@
+(function() {
+
 var time = 0;
 var running = 0;
 
@@ -81,3 +83,5 @@ function split() {
 	document.getElementById('start').addEventListener('click', start);
 	document.getElementById('reset').addEventListener('click', reset);
 	document.getElementById('split').addEventListener('click', split);
+
+})();

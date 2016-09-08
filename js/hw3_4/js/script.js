@@ -1,3 +1,5 @@
+(function() {
+
 var test = {
 
 	init: function () {
@@ -9,6 +11,7 @@ var test = {
 		document.body.appendChild(divContainer);
 	
 	},
+
 	title: function () {
 		
 		var divRow = document.createElement('div');
@@ -24,6 +27,7 @@ var test = {
 
 		document.getElementById('container').appendChild(divRow);
 	},
+
 	question: function () {
 
 		var form = document.createElement('form');
@@ -73,6 +77,7 @@ var test = {
 
 		document.getElementById('container').appendChild(form);
 	},
+
 	button: function () {
 		
 		var divRow = document.createElement('div');
@@ -103,6 +108,7 @@ test.question();
 
 test.button();
 
+})();
 
 
 

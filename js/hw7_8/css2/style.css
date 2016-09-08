@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family:sans-serif;
+}
+
+.wrapper {
+	position: absolute;
+	border: 1px solid #ccc;
+	height: 410px;	
+	left: 250px;
+	top: 70px;	
+	width: 570px;
+}
+
+/*form {
+	border: 1px solid #c5c5c5;	
+   	height: 200px;   	
+	margin: 10px auto;
+	width: 550px;	
+}*/
+
+fieldset {
+	margin: 10px auto;
+  	border: 1px solid #c5c5c5;	
+   	height: 200px;
+   	width: 550px;
+}
+
+label  {
+  	line-height:55px;
+  	display: inline-block; 
+  	font-size: 20px;
+  	width: 90px;
+  	vertical-align:middle;
+}
+
+fieldset div {
+	height:60px;
+  	margin: 20 0 0 0;
+}
+
+.help {
+	
+  	height: 33px;
+  	margin-left: 10px;
+  	margin-top: 5px;
+  	width: 107px;
+  	background-color:#efefef;
+  	border: 1px solid #c5c5c5;
+  	border-radius:3px;
+}
