@@ -10,8 +10,8 @@ $(function() {
 
 	});
 
-	$(".tab_item" ).keydown(function(event) {
-		if ( event.which == 3 ) {
+	$(".tab_item" ).keyup(function(event) {
+		if ( event.keyCode === 9 ) {
 			$(".tab_item").removeClass("active");
 			$(this).addClass("active");
 
